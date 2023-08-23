@@ -1,0 +1,1 @@
+- The imports in index.js below enable us to properly set up paths when we configure directories.

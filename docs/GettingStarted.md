@@ -27,5 +27,12 @@
       - helmet: A package for adding security-related HTTP headers to enhance the security of your Express application.
       - morgan: A logging middleware that helps you log incoming HTTP requests to your server, useful for debugging and monitoring.
       - jsonwebtoken: A library for creating and verifying JSON Web Tokens (JWTs), often used for user authentication and authorization.
-      - mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js, simplifying the interaction with MongoDB providing a schema-base approach.
+      - mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js, simplifying the interaction with MongoDB providing a schema-based approach.
     These packages collectively provide a solid foundation for building web applications with Node.js and Express, including handling routes, user authentication, security, database interactions and more.
+
+5. Run one more command while in server directory in terminal
+      - npm init -y
+6. In the package.json add the property
+      - "type": "module
+     {This allows you to use import statement rather than require.}    
+7.  Add an index.js file to the server directory.
